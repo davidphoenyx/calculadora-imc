@@ -29,10 +29,10 @@ function calcular() {
             if (imc <= 18.5) {
                 var resultado = 'abaixo do peso'
                 mensagem('#fbff00')
-            } else if (imc > 18.4 && imc <= 24.99) {
+            } else if (imc <= 25) {
                 var resultado = 'normal'
                 mensagem('#1bf308')
-            } else if (imc > 25 && imc <= 29) {
+            } else if (imc <= 29) {
                 var resultado = 'sobrepeso'
                 mensagem('#fda500')
             } else {
